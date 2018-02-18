@@ -12,3 +12,41 @@ nav img.logo {
     display: block;
     margin: auto;
 }
+article#content {
+    width: 800px;
+    margin: auto;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: sleek;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: pro;
+    color: #21345D;
+}
+h1 {
+    font-size: 38px;
+}
+h2 {
+    font-size: 28px;
+}
+p {
+    line-height: 1.8em;
+    font-size: 18px;
+}
+
+
+
+@font-face {
+    font-family: curvy;
+    src: url(https://efehq.com/res/font/curvy.eot?#iefix) format("embedded-opentype"), url(https://efehq.com/res/font/curvy.woff) format("woff"), url(https://efehq.com/res/font/curvy.ttf) format("truetype"), url(https://efehq.com/res/font/curvy.svg#svgFontName) format("svg");
+    src: url(https://efehq.com/res/font/curvy.eot?#iefix) format("embedded-opentype"), url(https://efehq.com/res/font/curvy.woff) format("woff"), url(https://efehq.com/res/font/curvy.ttf) format("truetype"), url(https://efehq.com/res/font/curvy.svg#svgFontName) format("svg")
+}
+@font-face {
+    font-family: pro;
+    src: url(https://efehq.com/res/font/pro.eot?#iefix) format("embedded-opentype"), url(https://efehq.com/res/font/pro.woff) format("woff"), url(https://efehq.com/res/font/pro.ttf) format("truetype"), url(https://efehq.com/res/font/pro.svg#svgFontName) format("svg");
+    src: url(https://efehq.com/res/font/pro.eot?#iefix) format("embedded-opentype"), url(https://efehq.com/res/font/pro.woff) format("woff"), url(https://efehq.com/res/font/pro.ttf) format("truetype"), url(https://efehq.com/res/font/pro.svg#svgFontName) format("svg")
+}
+@font-face {
+    font-family: sleek;
+    src: url(https://efehq.com/res/font/sleek.ttf)
+}
