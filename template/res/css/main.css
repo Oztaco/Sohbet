@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    background: #0C1426;
+}
+nav img.logo {
+    display: block;
+    margin: auto;
+}
