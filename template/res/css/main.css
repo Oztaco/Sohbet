@@ -2,22 +2,41 @@
     margin: 0;
     padding: 0;
 }
-nav {
+nav header {
     margin: auto;
-    width: 600px;
-    height: 200px;
+    width: 800px;
+    height: 60px;
     background: #0C1426;
 }
 nav img.logo {
     display: block;
     margin: auto;
+    padding-top: 14px;
+}
+nav ul {
+    display: block;
+    width: 800px;
+    margin: auto;
+    height: 2em;
+}
+nav li {
+    display: block;
+    float: left;
+    font-size: 18px;
+    line-height: 2em;
+    margin-right: 8px;
+}
+nav a.tag {
+    color: #0e5ca8;
 }
 article#content {
     width: 800px;
     margin: auto;
 }
-p, h1, h2, h3, h4, h5, h6 {
+a, p, h1, h2, h3, h4, h5, h6 {
     font-family: sleek;
+    font-weight: 100;
+    margin-top: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: pro;
