@@ -117,6 +117,26 @@ p {
     color: #1282f0;
 }
 
+.author {
+    margin-top: 30px;
+}
+.author img {
+    height: 80px;
+    width: 80px;
+    background: #ff5151;
+    border-radius: 9999px;
+    float: left;
+    margin: 0 30px 0 0;
+}
+.author h6 {
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    font-size: 18px;
+}
+.author p {
+    line-height: 1.5em;
+    margin-top: 0;
+}
 
 
 @font-face {
