@@ -139,6 +139,27 @@ p {
 }
 
 
+/*
+ * Phone
+ */
+@media screen and (max-width: 480px) {
+    nav header {
+        width: 100%;
+        border-radius: 0;
+    }
+    .page {
+        width: auto;
+        margin: 30px;
+    }
+    nav ul {
+        margin-left: 30px;
+        margin-right: 30px;
+        width: auto;
+    }
+}
+
+
+
 @font-face {
     font-family: curvy;
     src: url(https://efehq.com/res/font/curvy.eot?#iefix) format("embedded-opentype"), url(https://efehq.com/res/font/curvy.woff) format("woff"), url(https://efehq.com/res/font/curvy.ttf) format("truetype"), url(https://efehq.com/res/font/curvy.svg#svgFontName) format("svg");
