@@ -6,7 +6,7 @@ body {
     padding-bottom: 50px;
 }
 ::-moz-selection {
-    background: #1C3877;
+    background: #E52D2D;
     color: #fff;
 }
 br.clear {
@@ -46,6 +46,7 @@ nav a.tag {
     color: #0e5ca8;
     transition: 0.1s linear;
     text-decoration: none;
+    display: block;
 }
 nav a.tag:hover {
     color: #1282f0;
@@ -58,6 +59,17 @@ article#content {
     width: 800px;
     margin: auto;
 }
+a.date {
+    text-decoration: none;
+    color: #E52D2D;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.1s color;
+}
+a.date:hover {
+    color: #F26262;
+}
 a, p, h1, h2, h3, h4, h5, h6 {
     font-family: "Titillium Web", Titillium, Calibri, Arial, sans-serif;
     font-weight: 400;
@@ -69,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     font-size: 32px;
+    margin-top: 10px;
 }
 h2 {
     font-size: 24px;
@@ -95,6 +108,9 @@ p {
     text-decoration: none;
     color: #000;
     padding: 15px;
+}
+.article_teaser.empty {
+    visibility: hidden;
 }
 .article_teaser p {
     text-transform: uppercase;
@@ -149,12 +165,25 @@ p {
     }
     .page {
         width: auto;
-        margin: 30px;
+        margin: 20px 30px;
     }
     nav ul {
         margin-left: 30px;
         margin-right: 30px;
         width: auto;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .cell2 {
+        display: block;
+        width: auto;
+    }
+    .article_teaser {
+        margin-top: 0;
+    }
+    .article_teaser.empty {
+        display: none;
     }
 }
 
