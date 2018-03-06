@@ -16,7 +16,7 @@ br.clear {
     visibility: hidden;
 }
 nav {
-    padding: 50px 0 25px 0;
+    padding: 50px 0 50px 0;
 }
 nav header {
     width: 800px;
@@ -30,25 +30,25 @@ nav img.logo {
     margin: auto;
     padding-top: 14px;
 }
-nav ul {
+ul.tags {
     display: block;
-    width: 800px;
     margin: auto;
 }
-nav li {
+ul.tags li {
     display: block;
     float: left;
     font-size: 18px;
-    line-height: 2.2em;
+    line-height: 1.5em;
     margin-right: 15px;
 }
-nav a.tag {
+ul.tags a.tag {
     color: #0e5ca8;
     transition: 0.1s linear;
     text-decoration: none;
     display: block;
+    margin-top: 10px;
 }
-nav a.tag:hover {
+ul.tags a.tag:hover {
     color: #1282f0;
     text-decoration: underline;
 }
@@ -63,12 +63,12 @@ a.date {
     text-decoration: none;
     color: #E52D2D;
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 18px;
     transition: 0.1s color;
 }
 a.date:hover {
     color: #F26262;
+    text-decoration: underline;
 }
 a, p, h1, h2, h3, h4, h5, h6 {
     font-family: "Titillium Web", Titillium, Calibri, Arial, sans-serif;
@@ -89,6 +89,9 @@ h2 {
 p {
     line-height: 1.8em;
     font-size: 18px;
+}
+a {
+    margin-top: auto;
 }
 .grid {
     display: table;
@@ -156,12 +159,15 @@ p {
 
 
 /*
- * Phone
+ * Tablet
  */
-@media screen and (max-width: 480px) {
+ @media screen and (max-width: 860px) {
     nav header {
         width: 100%;
         border-radius: 0;
+    }
+    nav {
+        padding: 0 0 20px 0;
     }
     .page {
         width: auto;
@@ -172,9 +178,6 @@ p {
         margin-right: 30px;
         width: auto;
     }
-    h1 {
-        font-size: 28px;
-    }
     .cell2 {
         display: block;
         width: auto;
@@ -184,6 +187,17 @@ p {
     }
     .article_teaser.empty {
         display: none;
+    }
+}
+/*
+ * Phone
+ */
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 22px;
     }
 }
 
