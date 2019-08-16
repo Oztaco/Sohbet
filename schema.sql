@@ -12,5 +12,14 @@ CREATE TABLE article (
 
 CREATE TABLE article_content (
     lang VARCHAR(2) NOT NULL,
-    body MEDIUMTEXT NOT NULL
+    body MEDIUMTEXT NOT NULL,
+    meta_summary MEDIUMTEXT NOT NULL,
+    meta_keywords VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE article_attribute (
+    article_id UNIQUEIDENTIFIER,
+    kind ENUM('tag', 'category'),
+    val VARCHAR(30),
+    FOREIGN KEY article_id REFERENCES article(id)
 );
